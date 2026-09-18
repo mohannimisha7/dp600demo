@@ -1,0 +1,16 @@
+relationship f4e048ac-ad25-51f4-3eb8-7b8aad76ab2d
+	relyOnReferentialIntegrity
+	fromColumn: factsales.OrderDateKey
+	toColumn: dimdate.DateKey
+
+relationship 8ef5a0b0-93a9-9b18-cf34-3b8eb7c321d7
+	relyOnReferentialIntegrity
+	fromColumn: factsales.CustomerKey
+	toColumn: dimcustomer.CustomerKey
+
+relationship 9df5d8ce-f28f-9c64-e487-569742cc698e
+	isActive: false
+	relyOnReferentialIntegrity
+	fromColumn: factsales.ShipDateKey
+	toColumn: dimdate.DateKey
+
